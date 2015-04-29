@@ -1141,9 +1141,6 @@ var sendSMS = function(a, b, c, d) {
   }
 };
 // Input 12
-if (config.CORDOVA_BUILD) {
-  var exec = require("cordova/exec")
-}
 var default_branch, callback_params = {NO_CALLBACK:0, CALLBACK_ERR:1, CALLBACK_ERR_DATA:2};
 function wrap(a, b, c) {
   return function() {
